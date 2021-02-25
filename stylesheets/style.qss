@@ -1,0 +1,35 @@
+/*-----QPushButton-----*/
+QPushButton[objectName^="addTask"]::hover
+{
+background-color: #4C9E4F;
+}
+
+QPushButton[objectName^="removeTask"]::hover
+{
+background-color: #CB492E;
+}
+
+/*-----QListView-----*/
+QListWidget::item
+{
+margin-top: 5px;
+margin-bottom: 5px;
+}
+
+QListView::item:selected:!active
+{
+    background-color: #FFFFFF;
+}
+
+QListView::item:selected:active
+{
+    background-color: rgba(204, 232, 255, 0.5);
+    color: #202020;
+    border: none;
+}
+
+QListView::item:hover {
+
+    background-color: #f6f8fa;
+    border: none;
+}
